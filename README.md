@@ -1,22 +1,26 @@
 # spontane-us
 
-# Github updating process:
-# https://github.com/EXMPLORG/WorkTogether
+## Github updating process:
+https://github.com/EXMPLORG/WorkTogether
 
-# 1. Whenever you are done making your own changes in the code:
-### git add .
-### git commit -m "YOUR MESSAGE"
-### git push origin master
+### 1. Whenever you are done making your own changes in the code:
+```
+git add .
+git commit -m "YOUR MESSAGE"
+git push origin master
+```
 
-# 2. Go to your forked repo on Github and submit a pull request (green button)
+### 2. Go to your forked repo on Github and submit a pull request (green button)
 
-# 3. A team member will have to merge the pull request
-### All team members (except original pull requestor) will need to:
-### git pull upstream master
+### 3. A team member will have to merge the pull request
+All team members (except original pull requestor) will need to:
+```
+git pull upstream master
+```
 
 
-# Todo:
-1. Clean up hashtags in readme file
+## Todo:
+1. Clean up hashtags in readme file - DONE Whitney
 
 2. Create a model and controller for activites index page
 	- controller should have 
@@ -58,6 +62,7 @@
 16. Items can be deleted by users or after they expire/have passed
 
 17. Default images to choose from based on the chosen category
+    - Need to add in image:string to the Activity controller (param)
 	- find images based on categories
 	- default to profile pic
 	- user can choose to upload image, choose from a default, or use their profile pic
