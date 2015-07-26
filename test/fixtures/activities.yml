@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  description: MyText
+  max_people: 1
+  no_max: false
+  zipcode: 1
+  start_time: MyString
+  end_time: MyString
+
+two:
+  title: MyString
+  description: MyText
+  max_people: 1
+  no_max: false
+  zipcode: 1
+  start_time: MyString
+  end_time: MyString
