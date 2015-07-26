@@ -46,3 +46,4 @@ end
 # allows authentication through facebook
 gem 'omniauth-facebook', '~> 2.0.1'	
 
+

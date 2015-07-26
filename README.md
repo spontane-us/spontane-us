@@ -21,9 +21,6 @@ git pull upstream master
 
 ## Todo:
 
-3. Create a user registration
-	- facebook oAuth
-	- uncomment the authenticate_user method in activities controller
 
 4. Make it so that the page only loads details for signed in users
 
@@ -83,6 +80,10 @@ git pull upstream master
 		- activity prarams should include title, description, number of people, location, time or time range, images
 	- before_actions of set_activity, authenticate_user (commented out for now)
 
+3. Create a user registration - DONE Kyle
+	- facebook oAuth
+	- uncomment the authenticate_user method in activities controller
+	
 6. Create new, show, edit pages for individual activites - DONE Whitney
 
 7. Update the index page to display all activities - DONE Whitney
