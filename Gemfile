@@ -44,5 +44,6 @@ group :development, :test do
 end
 
 # allows authentication through facebook
-gem 'omniauth-facebook', '~> 2.0.1'
+gem 'omniauth-facebook', '~> 2.0.1'	
+
 

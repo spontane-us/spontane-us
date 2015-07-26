@@ -1,0 +1,47 @@
+3. Create a user registration
+	- facebook oAuth
+	- uncomment the authenticate_user method in activities controller
+
+
+Design Notes:
+
+In the console:
+	rails g model User provider:string uid:string name:string
+	rake db:migrate
+	gem install omniauth-facebook
+	bundle install
+	rails g controller home index profile
+	rails g controller sessions
+
+In the gemfile add:
+	gem 'omniauth-facebook', '~> 2.0.1'
+
+In config/initializers:
+	create a file called omniauth.rb that has the provider keys for facebook 
+		Rails.application.config.middleware.use OmniAuth::Builder do |variable|
+			provider :facebook, 'app_ID', 'secret'
+		end		
+	add to .gitignore
+
+In sessions_controller.rb:
+	add create and destroy methods
+
+In the user.rb model:
+	add the sign_in and the create_user methods
+
+In config/routes:
+  root 'home#index'
+  get 'home/profile'
+  get 'auth/:provider/callback', to: "sessions#create"
+  delete 'sign_out', to: "sessions#destroy", as: 'sign_out'
+
+In application_controller.rb:
+	create a method current_user
+
+In application.html.erb:
+	Add the information for logging in and the conditionals for if someone is logged in or not
+
+In home_controller.rb
+	create a before_action to set_auth
+	create methods for index and profile
+	create a private set_auth method

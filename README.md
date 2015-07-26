@@ -20,26 +20,11 @@ git pull upstream master
 
 
 ## Todo:
-1. Clean up hashtags in readme file - DONE Whitney
 
-2. Create a model and controller for activites index page
-	- controller should have 
-		- empty methods for search, index, show, new, edit, create, update, destroy
-	-  private methods for activity_params and set_activity
-		- activity prarams should include title, description, number of people, location, time or time range, images
-	- before_actions of set_activity, authenticate_user (commented out for now)
-
-3. Create a user registration
-	- facebook oAuth
-	- uncomment the authenticate_user method in activities controller
 
 4. Make it so that the page only loads details for signed in users
 
 5. Add bootstrap stylings to pages
-
-6. Create new, show, edit pages for individual activites
-
-7. Update the index page to display all activities
 
 8. Create navigation bar at top of page
 
@@ -81,3 +66,24 @@ git pull upstream master
 	- new activites added to the site
 
 22. Refactor start and end times
+
+23. Determine if the root page is correct.
+
+#### DONE
+
+1. Clean up hashtags in readme file - DONE Whitney
+
+2. Create a model and controller for activites index page - DONE Whitney
+	- controller should have 
+		- empty methods for search, index, show, new, edit, create, update, destroy
+	-  private methods for activity_params and set_activity
+		- activity prarams should include title, description, number of people, location, time or time range, images
+	- before_actions of set_activity, authenticate_user (commented out for now)
+
+3. Create a user registration - DONE Kyle
+	- facebook oAuth
+	- uncomment the authenticate_user method in activities controller
+	
+6. Create new, show, edit pages for individual activites - DONE Whitney
+
+7. Update the index page to display all activities - DONE Whitney
