@@ -66,4 +66,13 @@
 
 19. Create a flagging system for inappropriate activities
 
+20. Create a user model/controller to keep users logged in and gather their name and info for their profile
 
+21. Implement Masonry-rails gem 
+	- should work for 
+	- transitions when a user sorts
+	- changes in window size
+	- user performs a search
+	- new activites added to the site
+
+22. Refactor start and end times
