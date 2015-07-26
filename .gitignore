@@ -1,0 +1,2 @@
+config/initializers/omniauth.rb
+tmp/
