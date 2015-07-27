@@ -1,0 +1,19 @@
+5. Add bootstrap stylings to pages
+
+
+Design Notes
+
+In the gemfile add:
+	gem 'bootstrap-sass', '~> 3.3.5.1'
+
+Rename assets/stylesheets/application.css to application.css.scss and do:
+	@import "bootstrap-sprockets";
+	@import "bootstrap";
+
+In assets/javascripts/application.js add:
+	//= require bootstrap-sprockets
+
+In the console run:
+	bundle install
+
+Restart Server
