@@ -1169,3 +1169,154 @@ Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dd
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-07-25 23:43:01 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-26 23:55:58 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 2826ms (Views: 2817.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/activities.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-26 23:56:01 -0600
+
+
+Started GET "/assets/scaffolds.self-de3eb0dce662511240d2bc9ad84fab6ddd60a4709b4f4714f1ef8df33e032d8e.css?body=1" for 127.0.0.1 at 2015-07-26 23:56:01 -0600
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-26 23:56:01 -0600
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-26 23:56:01 -0600
+
+
+Started GET "/assets/application.self-6f672c7eed7ff14ee62d6f891530b961b331462f3abf5c7c590627b0e45b88db.css?body=1" for 127.0.0.1 at 2015-07-26 23:56:01 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-26 23:56:01 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2015-07-26 23:56:01 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-26 23:56:01 -0600
+
+
+Started GET "/assets/activities.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-26 23:56:01 -0600
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-26 23:56:01 -0600
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-26 23:56:01 -0600
+
+
+Started GET "/assets/bootstrap/alert.self-896ab026e6823f5cef2441e07dac53d0692a5b772ac58b1ce20aa624c342d3f4.js?body=1" for 127.0.0.1 at 2015-07-26 23:56:01 -0600
+
+
+Started GET "/assets/bootstrap/affix.self-f7aef9d98ee5ece34a6a92a6a15bba777d93e8d908b75c95a85088277f394200.js?body=1" for 127.0.0.1 at 2015-07-26 23:56:01 -0600
+
+
+Started GET "/assets/bootstrap/button.self-d19f3e2bcd3a7a4d75c11b9141b3fabd2c11987da1e99c85548ec3ecf8db30c3.js?body=1" for 127.0.0.1 at 2015-07-26 23:56:01 -0600
+
+
+Started GET "/assets/bootstrap/carousel.self-b2e5e14483e6c31343a83861b7d487620f143d6fc2d07d5ae7544b6b225ba6be.js?body=1" for 127.0.0.1 at 2015-07-26 23:56:01 -0600
+
+
+Started GET "/assets/bootstrap/collapse.self-93820e9b486e375a7fb4477602def3a6f8381fa6d50938d5378297ffbe4a1248.js?body=1" for 127.0.0.1 at 2015-07-26 23:56:01 -0600
+
+
+Started GET "/assets/bootstrap/tab.self-9b77df34cbbb08ec93a806d6cdb741f04e3dbf3389978a0679146f2d2987bc89.js?body=1" for 127.0.0.1 at 2015-07-26 23:56:01 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.self-30536ae4d54b2685c26b5787ed0eb549a9075717fe690cce6270873bedf2df00.js?body=1" for 127.0.0.1 at 2015-07-26 23:56:01 -0600
+
+
+Started GET "/assets/bootstrap/transition.self-9616c4e856b57659b67da3c6f2adcd584b5601ef4bebcdadab8ebb387d80bb25.js?body=1" for 127.0.0.1 at 2015-07-26 23:56:01 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.self-c5c6ed008955656d345067e9821d79f1216b8383134d08465d4aa1a33a2b93b4.js?body=1" for 127.0.0.1 at 2015-07-26 23:56:01 -0600
+
+
+Started GET "/assets/bootstrap/modal.self-bcfe54f3132bf16a8c5ce4289e47eba488f6522a08f49f378a037061c6c7aa4c.js?body=1" for 127.0.0.1 at 2015-07-26 23:56:01 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.self-3aa41fbe871573b34e0ebddf31598cd5a11a9841ca85f90934ea46326e46626d.js?body=1" for 127.0.0.1 at 2015-07-26 23:56:01 -0600
+
+
+Started GET "/assets/bootstrap/popover.self-b73e9c9111d01148e24bbc46e096782e024dc5db630e7078cf11ed2587ef8551.js?body=1" for 127.0.0.1 at 2015-07-26 23:56:01 -0600
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-07-26 23:56:01 -0600
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2015-07-26 23:56:01 -0600
+
+
+Started DELETE "/sign_out" for 127.0.0.1 at 2015-07-26 23:56:03 -0600
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"X8O3ZrRotpk9dkkDpWTRE8LDAlP0/993jAjBvltJcpEwvH4l1fzRt2HpwhWnkPUZ+tSrACmeKseHEBLDKeV6FA=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-26 23:56:03 -0600
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 116ms (Views: 115.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-07-26 23:56:05 -0600
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-07-26 23:56:05 -0600
+
+
+Started GET "/auth/facebook/callback?code=AQC4Ld0GPd4fRktV0THBRSlUYnWMp1PZTCaC6_RpsePK4NKibK7NZVelZaoz_wS1UHjXHPORmXyhn72KRokq4BJS5-lW3E7KCh5JXH-ifXUIzP6y7UoJahF0QUGv3tNw8v1xGE6OJKPDfBIJMzTBAyS4o-dXO04w9vD7QAS0Iwdsree6cPcxEHoS9rVfvUYG3453buPlGVwrOGlhHzKpvKtDZM4m-aC9nvPvPLo2Y8rRoaQZ2nclViIpY7zm4J02sHq1C5P_RtTXKyhZ8QPZNUSd4A__fBHKl9STxMKNL4l7xOwRM1fFikFTzgBl_M6siHx_NjrdJjkLI7V19zqSQv3z&state=9a6a658ac78eb76cb0ce433431c8308f6e95f079004a028a" for 127.0.0.1 at 2015-07-26 23:56:05 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQC4Ld0GPd4fRktV0THBRSlUYnWMp1PZTCaC6_RpsePK4NKibK7NZVelZaoz_wS1UHjXHPORmXyhn72KRokq4BJS5-lW3E7KCh5JXH-ifXUIzP6y7UoJahF0QUGv3tNw8v1xGE6OJKPDfBIJMzTBAyS4o-dXO04w9vD7QAS0Iwdsree6cPcxEHoS9rVfvUYG3453buPlGVwrOGlhHzKpvKtDZM4m-aC9nvPvPLo2Y8rRoaQZ2nclViIpY7zm4J02sHq1C5P_RtTXKyhZ8QPZNUSd4A__fBHKl9STxMKNL4l7xOwRM1fFikFTzgBl_M6siHx_NjrdJjkLI7V19zqSQv3z", "state"=>"9a6a658ac78eb76cb0ce433431c8308f6e95f079004a028a", "provider"=>"facebook"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."provider" = ? AND "users"."uid" = ? LIMIT 1[0m  [["provider", "facebook"], ["uid", "10207210994064137"]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-26 23:56:05 -0600
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 93ms (Views: 91.9ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/sign_out" for 127.0.0.1 at 2015-07-26 23:56:06 -0600
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"kOVjLExr+vvzj/qCFe1XIHBe/GafME15ZY2hAbliHIr/mqpvLf+d1a8QcZQXGXMqSElVNUJRuMlulXJ8y84UDw=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-26 23:56:06 -0600
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 95ms (Views: 94.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-07-26 23:56:07 -0600
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-07-26 23:56:07 -0600
+
+
+Started GET "/auth/facebook/callback?code=AQBHV-e7EHv-KxdDjgsaoHrYL7a0gjAmrSDKpm6m42yR52TpaHVNu8dZl8OkUorugfnGBo-Tteh8lJMzl7tceiRhdu7KZhCO3R_yUFt_bbsWukh6yDak9E8oJ-fnR3PRXLHx5Hht3FdDsdNy9fP_anNIN9Prw5VS8ot3DVIimW3rHgvPKIZRzFKIsb4A3ywAndHvB9-M9DgL3rlPBYpwshUJjt8R3qu3QX4nFYsS3suV8bxBCq5LqKe2j-iqUDkC8oVgpxFjkMb1RMUmpX3PixcVcMfNw0jM7aUtDsc93N-AwXgmq-g_V_AKTewtbuJszoyqtBmWOAdaMyyV-dZPnUxp&state=d24bf2380893d82a0eadb1bbbcac0cab00acfa90d0f8aa55" for 127.0.0.1 at 2015-07-26 23:56:08 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQBHV-e7EHv-KxdDjgsaoHrYL7a0gjAmrSDKpm6m42yR52TpaHVNu8dZl8OkUorugfnGBo-Tteh8lJMzl7tceiRhdu7KZhCO3R_yUFt_bbsWukh6yDak9E8oJ-fnR3PRXLHx5Hht3FdDsdNy9fP_anNIN9Prw5VS8ot3DVIimW3rHgvPKIZRzFKIsb4A3ywAndHvB9-M9DgL3rlPBYpwshUJjt8R3qu3QX4nFYsS3suV8bxBCq5LqKe2j-iqUDkC8oVgpxFjkMb1RMUmpX3PixcVcMfNw0jM7aUtDsc93N-AwXgmq-g_V_AKTewtbuJszoyqtBmWOAdaMyyV-dZPnUxp", "state"=>"d24bf2380893d82a0eadb1bbbcac0cab00acfa90d0f8aa55", "provider"=>"facebook"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."provider" = ? AND "users"."uid" = ? LIMIT 1[0m  [["provider", "facebook"], ["uid", "10207210994064137"]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-26 23:56:08 -0600
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 79ms (Views: 78.4ms | ActiveRecord: 0.1ms)
